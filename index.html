@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">MyPortfolio</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="jumbotron text-center bg-primary text-white">
+    <h1 class="display-4">Hello, I'm John Doe</h1>
+    <p class="lead">Full Stack Web Developer</p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="container my-5">
+    <h2>About Me</h2>
+    <p>Short introduction here...</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container my-5">
+    <h2>Projects</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="img/project1.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Project One</h5>
+            <p class="card-text">Short project description...</p>
+            <a href="#" class="btn btn-primary mt-auto">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="img/project2.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Project Two</h5>
+            <p class="card-text">Short project description...</p>
+            <a href="#" class="btn btn-primary mt-auto">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="img/project3.jpg" class="card-img-top" alt="Project 3">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Project Three</h5>
+            <p class="card-text">Short project description...</p>
+            <a href="#" class="btn btn-primary mt-auto">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container my-5">
+    <h2>Contact Me</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+  </section>
+
+  <footer class="text-center py-3 bg-dark text-white">
+    &copy; 2025 John Doe
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

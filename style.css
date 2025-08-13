@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header.jumbotron {
+  background: linear-gradient(to right, #007bff, #00bfff);
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
